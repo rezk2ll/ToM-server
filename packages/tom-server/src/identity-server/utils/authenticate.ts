@@ -1,7 +1,6 @@
 import { type TwakeLogger } from '@twake/logger'
 import { type tokenContent } from '@twake/matrix-identity-server'
 import { epoch, errMsg, send } from '@twake/utils'
-import fetch from 'node-fetch'
 import type { AuthenticationFunction, Config, TwakeDB } from '../../types'
 
 export interface WhoAmIResponse {
